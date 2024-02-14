@@ -1,20 +1,25 @@
 # Splunk SVP Team Take Home
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app),
-and is designed as a step whilst interviewing for the SVP Team at Splunk.
+and is designed as a step when interviewing for the SVP Team at Splunk.
 
 ## How do I use this?
 
 1. Clone/fork this repo locally
 2. Start this app by running `docker-compose up` (install Docker if needed)
-3. Create the app specified in `spec.pdf`
+3. Create the app specified in `spec.pdf`, by following the requirements below and within `spec.pdf`.
 4. When finished, open a pull request with your changes
+
+## Project Requirements
+
+1. Use `spec.pdf` as a visual guide to create a basic log viewing application.
+2. The main view should utilize React components when rendering logs to ensure the application stays modular. Do this in the way you feel is best, and we can discuss the chosen approach during the in-person interview.
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `docker-compose build && docker-compose up`
+### `docker-compose up`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:20
 
 # Create app directory
 WORKDIR /home/splunk/app

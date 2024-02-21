@@ -8,7 +8,7 @@ and is designed as a step when interviewing for the SVP Team at Splunk.
 1. Clone/fork this repo locally
 2. Start this app by running `docker-compose up` (install Docker if needed)
 3. Create the app specified in `spec.pdf`, by following the requirements below and within `spec.pdf`.
-4. When finished, open a pull request with your changes
+4. When finished, zip the project and upload it Codility.
 
 ## Project Requirements
 

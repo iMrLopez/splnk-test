@@ -1,0 +1,13 @@
+version: '2.1'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/home/splunk/app
+      - /home/splunk/app/node_modules
+    environment:
+      - NODE_ENV=development
+    ports:
+      - "3000:3000"
